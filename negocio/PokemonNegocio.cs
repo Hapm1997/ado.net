@@ -121,13 +121,13 @@ namespace negocio
                     switch (criterio)
                     {
                         case "Menor a ":
-                            consulta += "Numero < " + fitro;
+                            consulta += "Número < " + fitro;
                             break;
                         case "Mayor a ":
-                            consulta += "Numero > " + fitro;
+                            consulta += "Número > " + fitro;
                             break;
                         default:
-                            consulta += "Numero = " + fitro;
+                            consulta += "Número = " + fitro;
                             break;
                     }
 				}
